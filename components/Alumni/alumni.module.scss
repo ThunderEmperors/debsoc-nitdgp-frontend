@@ -25,12 +25,12 @@
         .head2 {
             color: $black;
             z-index: 50;
-            margin-top: clamp(20px, 4vw, 60px);
+            margin-top: clamp(0.5vw, 0.5vw, 1vw);
             font-size: clamp(20px, 3.5vw, 48px);
             font-weight: 700;
             @include max-q(420px){
                 padding: 0 3px;
-                margin-top: 70px;
+                margin-top: 1vw;
             }
         }
     }
@@ -38,7 +38,7 @@
     .content {
         text-align: center;
         width: clamp(206px, 55vw, 856px);
-        margin-top: clamp(50px, 5.8vw, 80px);
+        margin-top: clamp(50px, 7vw, 120px);
         font-size: clamp(12px, 1.1vw, 18px);
         line-height: 1.4;
         margin-bottom: clamp(15px, 1.8vw, 20px);
