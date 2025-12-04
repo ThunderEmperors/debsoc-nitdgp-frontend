@@ -11,7 +11,7 @@ export default function TwentyFour() {
   const getData = useCallback(async () => {
     setLoading(true);
 
-    const response = await fetch(ENDPOINTS.ALUMNI + 2024);
+    const response = await fetch(`/api/alumni?year=2024`);
     const past = await response.json();
     setData(past);
     setLoading(false);

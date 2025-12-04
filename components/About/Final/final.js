@@ -13,7 +13,7 @@ export default function Sophomore() {
       setLoading(true);
 
       try {
-        const response = await fetch(ENDPOINTS.FINAL_YEAR);
+        const response = await fetch(`/api/members?year=2`);
         const past = await response.json();
         
         
