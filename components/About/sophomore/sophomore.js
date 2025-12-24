@@ -56,23 +56,17 @@ export default function Sophomore() {
             <div className={styles.links}>
               {pass.facebook_url && (
                 <Link href={pass.facebook_url}>
-                  <a>
                     <img src="Images/facebook.png" alt="" />
-                  </a>
                 </Link>
               )}
               {pass.linkedin_url && (
                 <Link href={pass.linkedin_url}>
-                  <a>
                     <img src="Images/linkedin.png" alt="" />
-                  </a>
                 </Link>
               )}
               {pass.instagram_url && (
                 <Link href={pass.instagram_url}>
-                  <a>
                     <img src="Images/insta.png" alt="" />
-                  </a>
                 </Link>
               )}
             </div>

@@ -36,25 +36,19 @@ export default function TwentyThree() {
               <div className={styles.links}>
               {pass.facebook_url &&    
                     (<Link href={pass.facebook_url}>
-                    <a>
                     <img src="Images/facebook.png" alt="" key={pass.facebook_url} />
-                    </a>
                     </Link>)
                   }
 
                   {pass.linkedin_url &&    
                     (<Link href={pass.linkedin_url}>
-                    <a>
                     <img src="Images/linkedin.png" alt="" key={pass.linkedin_url} />
-                    </a>
                     </Link>)
                   }
 
                   {pass.instagram_url &&    
                     (<Link href={pass.instagram_url}>
-                    <a>
                     <img src="Images/insta.png" alt="" key={pass.instagram_url} />
-                    </a>
                     </Link>)
                   }
               </div>
