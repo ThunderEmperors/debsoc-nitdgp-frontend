@@ -112,6 +112,8 @@
   }
 
   .col {
+
+    
       @include min-q(800px) {
             margin: 0 clamp(50px, 7.5vw, 120px);
       }
