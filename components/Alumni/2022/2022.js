@@ -11,7 +11,8 @@ export default function Nine() {
   const getData = useCallback(async () => {
     setLoading(true);
 
-    const response = await fetch(`/api/alumni?year=2022`);
+    // const response = await fetch(`/api/alumni?year=2022`);
+    const response = await fetch(ENDPOINTS.ALUMNI + 2022);
     const past = await response.json();
     setData(past);
     setLoading(false);

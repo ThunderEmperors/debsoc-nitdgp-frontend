@@ -16,7 +16,8 @@ export default function Sophomore() {
 
       try {
 
-        const response = await fetch(`/api/members?year=0`);
+        // const response = await fetch(`/api/members?year=0`);
+        const response = await fetch(ENDPOINTS.SOPHOMORES);
 
         const past = await response.json();
         //const sophomore = past["2"];

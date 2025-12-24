@@ -11,7 +11,8 @@ export default function Eight() {
   const getData = useCallback(async () => {
     setLoading(true);
 
-    const response = await fetch(`/api/alumni?year=2021`);
+    // const response = await fetch(`/api/alumni?year=2021`);
+    const response = await fetch(ENDPOINTS.ALUMNI + 2021);
     const past = await response.json();
     setData(past);
     setLoading(false);
