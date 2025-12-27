@@ -53,7 +53,7 @@ export default function Sophomore() {
           <img src={BASE_URL + pass.dp} alt="" className={styles.photo} />
           <div className={styles.col2}>
             <div className={styles.head1}>{pass.firstname} {pass.lastname}</div>
-            <div className={styles.head2}>{pass.post}</div>
+            <div className={styles.head2}>{pass.post != "NA" && pass.post}</div>
             <div className={styles.links}>
               {pass.facebook_url && (
                 <Link href={pass.facebook_url}>

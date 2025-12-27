@@ -1,4 +1,4 @@
-@import "styles/variables";
+@use "styles/variables";
 
 .event {
     max-width: 1440px;
@@ -49,7 +49,7 @@
             width: clamp(115px,16.6vw,240px);
             height: clamp(26px,4.15vw,62px);
             @include variables.disp;
-            background-color: $purple;
+            background-color: variables.$purple;
             border-radius: clamp(3px, 0.48vw, 7px);
             cursor: pointer;
             color: variables.$white;
