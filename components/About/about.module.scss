@@ -1,4 +1,4 @@
-@import "styles/variables.scss";
+@use "styles/variables" as *;
 
 .about {
   max-width: 1440px;
