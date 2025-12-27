@@ -75,13 +75,13 @@ export default function Footer() {
         <div className={styles.col}>
           <div className={styles.head}>CONTACT INFO</div>
            <div className={styles.Items}>
-            President - +91 9381033844 (Umang Jhawar)
+            President - +91 8955582313 (Sunil Gujjar)
           </div>
           <div className={styles.Items}>
-            Treasurer - +91 8957469339 (Ayush Verma)
+            Treasurer - +91 8240287026 (Dipan Dutta)
           </div>
           <div className={styles.Items}>
-            Sponsorship Head - +91 7890912728 (Ayush Bhartia)
+            Sponsorship Head - +91 8770524385 (Piyush N. Rai)
           </div>
           <div className={styles.Items}>debatingsociety@nitdgp.ac.in</div>
         </div>
