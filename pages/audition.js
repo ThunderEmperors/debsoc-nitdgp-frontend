@@ -69,7 +69,7 @@ export default function Audition() {
     </Modal> */}
       <Loading show={loading} />
       <div className={styles.navbarWrapper}>
-        <a href="https://www.debsocnitdgp.in/">
+        <a href="https://debsocnitdgp.com/">
           <img className={styles.logo} src={logo.src} />
         </a>
       </div>

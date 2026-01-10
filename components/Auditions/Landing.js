@@ -7,10 +7,10 @@ import webdev from "../webdev.gif";
 import videoedit from "../videoedit.gif";
 import debating from "../debating.gif";
 import event from "../event.gif";
-import work from "../work.jpg";
-import group from "../group.jpg";
-import party from "../party.jpg";
-import all from "../all.jpg";
+import work from "../work2.jpeg";
+import all from "../stage.jpeg";
+import party from "../induction2.jpeg";
+import group from "../all2.jpeg";
 // rotate(${
 //   Math.floor(Math.random() * 30 + 10) * (Math.random() > 0.5 ? -1 : 1)
 // }deg
@@ -238,12 +238,13 @@ export default function AuditionLanding({ onLogin }) {
     <div className={`${styles.container} ${styles.fixed}`}>
       <div className={`${styles.section} ${styles.section1} ${styles.centred}`}>
         <h1>AUDITIONS</h1>
-        <h1>2023</h1>
+        <h1>2026</h1>
         <p className={styles.line}>
           Let not the anchor restrict your sail. Let not prejudice restrict your
           thought. Let not fear restrict your speech.
         </p>
-        <Button onClick={onLogin}>Register Now!</Button>
+        <h2>COMING SOON!</h2>
+        {/* <Button onClick={onLogin}>Register Now!</Button> */}
       </div>
       <Section2 />
       <Section3 />
