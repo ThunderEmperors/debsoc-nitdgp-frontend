@@ -49,6 +49,7 @@ export default function Audition() {
     );
     setLoading(true);
     const resp = await res.json();
+    console.log(resp);
     setLoading(false);
     setRegistered(resp.registered);
   };
