@@ -243,9 +243,7 @@ export default function AuditionLanding({ onLogin }) {
           Let not the anchor restrict your sail. Let not prejudice restrict your
           thought. Let not fear restrict your speech.
         </p>
-        <p className={styles.line}>
-          Sorry, we are no longer accepting audition registrations.
-        </p>
+        <Button onClick={onLogin}>Register Now!</Button>
       </div>
       <Section2 />
       <Section3 />
