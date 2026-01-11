@@ -130,9 +130,9 @@ export default function LoggedIn(props) {
                 <div
                   className={`${styles.section} ${styles.section1} ${styles.centred}`}
                 >
-                  {/* <img className={styles.avatar} src={props.user.picture} /> */}
+                  <img className={styles.avatar} src={props.user.picture} />
                   <h3>Welcome</h3>
-                  <h2>Puranjay</h2>
+                  <h2>{props.user.name}</h2>
                   <p>
                     Welcome aboard the audition process for the Debating
                     Society!
