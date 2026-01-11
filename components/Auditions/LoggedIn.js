@@ -267,7 +267,8 @@ export default function LoggedIn(props) {
                         2. Creativity <br />
                         3. Team work <br />
                         4. Ego <br />
-                        5. Hardworking
+                        5. Hardworking <br />
+                        6. Entertainment Value
                       </div>
                       <textarea
                         rows={5}
@@ -328,7 +329,7 @@ export default function LoggedIn(props) {
                   <form className={styles.form}>
                     <div className={styles.inputGroup}>
                       <div className={styles.questionText}>
-                        Why should Shizuka choose Gian over other characters?
+                        If money and time weren&apos;t an issue, what would you do first?
                       </div>
                       <textarea
                         rows={5}
@@ -449,7 +450,7 @@ export default function LoggedIn(props) {
                   <form className={styles.form}>
                     <div className={styles.inputGroup}>
                       <div className={styles.questionText}>
-                        What would you like to name your autobiography?
+                        What would you like to name your autobiography and why?
                       </div>
                       <textarea
                         rows={5}
@@ -479,8 +480,7 @@ export default function LoggedIn(props) {
                   <form className={styles.form}>
                     <div className={styles.inputGroup}>
                       <div className={styles.questionText}>
-                        You&apos;re a new addition to a crayon box. What color
-                        would you be and why?
+                        What is your spirit animal and why?
                       </div>
                       <textarea
                         rows={5}
