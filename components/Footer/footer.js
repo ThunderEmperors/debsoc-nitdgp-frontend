@@ -77,13 +77,25 @@ export default function Footer() {
 
           
           <div className={styles.Items}>
-            President - +91 8955582313 (Sunil Gujjar)
+            Club Heads - 
+            <div>
+              +91 9474547125(Punjaya Tulsi Sharma), 
+            </div>
+            <div>
+              +91 9352405160(Krishna Taparia)
+            </div>
           </div>
           <div className={styles.Items}>
-            Treasurer - +91 8240287026 (Dipan Dutta)
+            Joint Treasurers - 
+            <div>
+              +91 7817956175(Vardan Sharma), 
+            </div>
+            <div>
+              +91 7439470070(Saqlean Zafar)
+            </div>
           </div>
           <div className={styles.Items}>
-            Sponsorship Head - +91 8770524385 (Piyush N. Rai)
+            Sponsorship Head - +91 7060392612 (Aviral Verma)
           </div>
           <div className={styles.Items}>debatingsociety.nitdgp@gmail.com</div>
         </div>
