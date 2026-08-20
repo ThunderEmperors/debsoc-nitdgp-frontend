@@ -97,7 +97,7 @@ export default function Footer() {
           <div className={styles.Items}>
             Sponsorship Head - +91 7060392612 (Aviral Verma)
           </div>
-          <div className={styles.Items}>debatingsociety.nitdgp@gmail.com</div>
+          <div className={styles.Items}>debatingsociety@nitdgp.ac.in</div>
         </div>
         <div className={styles.col}>
           <div className={styles.head}>QUICK LINKS</div>
